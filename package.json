@@ -1,0 +1,12 @@
+{
+  "name": "webpack-uglify-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.12.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
