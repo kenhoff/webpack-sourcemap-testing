@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "test": "node test-sourcemaps.js"
+  },
   "dependencies": {
-    "webpack": "^4.12.2"
+    "sourcemap-validator": "^1.1.0",
+    "webpack": "^4.28.2"
   },
   "devDependencies": {
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.1.2"
   }
 }
